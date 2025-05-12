@@ -9,5 +9,8 @@ export default defineNuxtConfig({
         { name: 'viewport', content: 'width=device-width, initial-scale=1' }
       ]
     }
+  },
+  devServer: {
+    host: '0.0.0.0'
   }
 })
