@@ -30,7 +30,7 @@
       >
         Bóc Thăm
       </button>
-    </div>
+    </div> 
     <DiceRoller v-if="activeTab === 'dice'" />
     <Wheel v-if="activeTab === 'wheel'" />
     <ScoreManager v-if="activeTab === 'score'" />
